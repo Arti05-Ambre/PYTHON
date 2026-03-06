@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt 
+pentagon = [(0,0), (3,0), (4,2), (2,4), (-1,2)] 
+panta_closed = pentagon + [pentagon[0]]
+
+x = [p[0] for p in panta_closed]
+
+y = [p[1] for p in panta_closed]
+
+plt.plot(x, y, marker='o')
+
+plt.fill(x, y, color='blue', alpha=0.4)
+
+plt.title("Pentagon Plot")
+
+plt.grid(True)
+
+plt.axis("equal")
+
+plt.show()
