@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt  
+triangle = [(0,0), (3,0), (1,2)]  
+shear_y = 0.5  
+sx, sy = 1.5, 2   
+reflect_x = True  
+transformed=[] 
+for x, y in triangle: 
+    x_shear, y_shear = x, y + shear_y*x   
+    x_scale, y_scale = x_shear*sx, y_shear*sy  
+    if reflect_x: 
+        y_scale = -y_scale  
+        transformed.append((x_scale,y_scale))  
+def plot_triangle(tri, color, label):  
+
+ 
+    xs = [p[0] for p in tri] + [tri[0][0]]   
+    ys = [p[1] for p in tri] + [tri[0][1]]  
+    plt. plot ( xs, ys, '-o', color=color, label=label)  
+plot_triangle(triangle, 'blue', 'Original')  
+plot_triangle(transformed, 'red', 'Transformed')  
+plt.title( "Triangle: Shearing + Scaling + Reflection")  
+plt.legend()  
+plt.axis('equal')  
+plt.grid(True)  
+plt.show() 
