@@ -3,7 +3,7 @@ import numpy as np
 P = np.array([4, -2]) 
 # (1) Reflection through Y-axis 
 P_reflect_y = np.array([-P[0], P[1]]) 
-# (11) Scaling in X-coordinate by factor 5  
+# (11) Scaling in X-coordinate by factor 5   
 P_scale_x = np.array([5* P[0], P[1]])   
 # (III) Rotation about origin through an angle pi/2   
 angle = np.pi/2 
