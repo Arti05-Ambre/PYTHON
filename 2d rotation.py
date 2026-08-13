@@ -12,7 +12,7 @@ P_rotate = np.array([P[0]* np.cos(angle) - P[1]* np.sin(angle), P[0]* np.sin(ang
 shearing_factor = 7/2 
 P_shear_x = np.array([P[0] + shearing_factor * P[1], P[1]]) 
 #Print the transformed points 
-print("Initial point P:", P) 
+print("Initial point P:", P)  
 print("Reflection through Y-axis:", P_reflect_y) 
 print("Scaling in X-coordinate by factor 5:", P_scale_x) 
 print("Rotation about origin through an angle pi/2:", P_rotate) 
