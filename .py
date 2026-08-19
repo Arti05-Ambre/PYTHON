@@ -11,3 +11,4 @@ A=Point(4,-1)
     q1=q.transform(Matrix([[0,1,0],[1,0,0],[0,0,1]]))
     Segment(p1,q1)
   
+ 
