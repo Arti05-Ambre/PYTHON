@@ -2,7 +2,7 @@ A=Point(4,-1)
     B=Point(3,0)
     S=Segment(A,B)
     #Rotate about origin through an angle pi
-    S=S.rotate(pi)
+    S=S.rotate(pi) 
     S=S.scale(3,0) 
     points=S.points 
     p=points[0] 
