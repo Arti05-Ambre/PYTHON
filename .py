@@ -4,7 +4,7 @@ A=Point(4,-1)
     #Rotate about origin through an angle pi
     S=S.rotate(pi)
     S=S.scale(3,0)
-    points=S.points
+    points=S.points 
     p=points[0] 
     q=points[1]
     p1=p.transform(Matrix([[0,1,0],[1,0,0],[0,0,1]]))
