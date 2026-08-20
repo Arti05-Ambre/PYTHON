@@ -2,7 +2,7 @@ import pandas as pd
 b) Equal Frequency Binning
 b) Equal Frequency Binning  
 df = pd.read_csv("age_data.csv")
-df = pd.read_csv("age_data.csv")  
+df = pd.read_csv("age_data.csv")   
 print("Original Data:") 
 print(df) 
 # a) Equal Width Binning 
