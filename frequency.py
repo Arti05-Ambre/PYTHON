@@ -4,7 +4,7 @@ b) Equal Frequency Binning
 df = pd.read_csv("age_data.csv")
 df = pd.read_csv("age_data.csv")    
 print("Original Data:") 
-print(df) 
+print(df)  
 # a) Equal Width Binning 
 df["Equal_Width"] = pd.cut( 
 df["Age"],  
