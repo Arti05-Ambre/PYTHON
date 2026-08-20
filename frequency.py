@@ -16,7 +16,7 @@ print(df)
 # b) Equal Frequency Binning 
 df["Equal_Frequency"] = pd.qcut( 
 df["Age"], 
-q=3, 
+q=3,  
 labels=["Young", "Adult", "Senior"] 
 ) 
 print("\nEqual Frequency  Binning:") 
