@@ -7,7 +7,7 @@ print("Original Data:")
 print(df) 
 # a) Equal Width Binning 
 df["Equal_Width"] = pd.cut( 
-df["Age"], 
+df["Age"],  
 bins=3, 
 labels=["Young", "Adult", "Senior"]  
 ) 
