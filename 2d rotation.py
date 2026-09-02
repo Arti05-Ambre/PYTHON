@@ -5,7 +5,7 @@ P = np.array([4, -2])
 P_reflect_y = np.array([-P[0], P[1]])  
 # (11) Scaling in X-coordinate by factor 5   
 P_scale_x = np.array([5* P[0], P[1]])   
-# (III) Rotation about origin through an angle pi/2       
+# (III) Rotation about origin through an angle pi/2        
 angle = np.pi/2   
 P_rotate = np.array([P[0]* np.cos(angle) - P[1]* np.sin(angle), P[0]* np.sin(angle) + P[1] * np.cos(angle)]) 
 # (IV) Shearing in X-direction by 7/2 units  
