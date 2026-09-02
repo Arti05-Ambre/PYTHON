@@ -1,6 +1,6 @@
 import numpy as np 
 # Initial point P 
-P = np.array([4, -2]) 
+P = np.array([4, -2])  
 # (1) Reflection through Y-axis 
 P_reflect_y = np.array([-P[0], P[1]]) 
 # (11) Scaling in X-coordinate by factor 5   
