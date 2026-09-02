@@ -10,7 +10,7 @@ angle = np.pi/2
 P_rotate = np.array([P[0]* np.cos(angle) - P[1]* np.sin(angle), P[0]* np.sin(angle) + P[1] * np.cos(angle)]) 
 # (IV) Shearing in X-direction by 7/2 units  
 shearing_factor = 7/2 
-P_shear_x = np.array([P[0] + shearing_factor * P[1], P[1]]) 
+P_shear_x = np.array([P[0] + shearing_factor * P[1], P[1]])  
 #Print the transformed points 
 print("Initial point P:", P)   
 print("Reflection through Y-axis:", P_reflect_y) 
