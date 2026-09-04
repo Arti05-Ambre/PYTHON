@@ -5,7 +5,7 @@ P = np.array([-2, 4])
 shearing_Y = np.array([[1, 0], [7, 1]]) 
 P_transformed1 = np.dot(shearing_Y, P) 
 #Transformation 2: Scaling in X and Y direction by 7/2 and 7 units respectively 
-scaling_XY = np.array([[7/2, 0], [0, 7]]) 
+scaling_XY = np.array([[7/2, 0], [0, 7]])  
 P_transformed2 = np.dot(scaling_XY, P) 
 #Transformation 3: Shearing in X and Y direction by 4 and 7 units respectively 
 shearing_XY = np.array([[1, 4], [7, 1]]) 
