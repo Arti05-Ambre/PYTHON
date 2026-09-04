@@ -12,7 +12,7 @@ scaling_uniform = np.array([[-0.5, 0], [0, -0.5]])
 A_transformed2 = np.dot(scaling_uniform, A_transformed1) 
 B_transformed2 = np.dot(scaling_uniform, B_transformed1) 
 # Transformation 3: Scaling in Y-axis by 5 units 
-scaling_Y = np.array([[1, 0], [0, 5]]) 
+scaling_Y = np.array([[1, 0], [0, 5]])  
 A_transformed3 = np.dot(scaling_Y, A_transformed2) 
 B_transformed3 = np.dot(scaling_Y, B_transformed2) 
 # Transformation 4: Shearing in X and Y direction by 3 and 4 units respectively 
