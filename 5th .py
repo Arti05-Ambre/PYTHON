@@ -10,7 +10,7 @@ B_rotated_1 = np.dot(rotation_matrix_1, B)
 #Transformation 2: Scaling in y-Coordinate by -4 units
 scaling_matrix_2 = np.array([[1, 0], [0, -4]]) 
 A_scaled_2 = np.dot(scaling_matrix_2, A_rotated_1) 
-B_scaled_2 = np.dot(scaling_matrix_2, B_rotated_1) 
+B_scaled_2 = np.dot(scaling_matrix_2, B_rotated_1)  
 #Transformation 3: Uniform scaling by -6.4 units
 scaling_matrix_3 = np.array([[-6.4, 0], [0, -6.4]]) 
 A_scaled_3 = np.dot(scaling_matrix_3, A_scaled_2) 
