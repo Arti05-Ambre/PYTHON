@@ -8,7 +8,7 @@ data={
     "Rating":[4.5,4.3,4.2,4.1,4.0,4.4,4.2,4.3],
     "Sales":[120,300,200,500,350,100,450,250]
 }
-df=pd.DataFrame(data)
+df=pd.DataFrame(data) 
 print("Product Dataset:")
 print(df)
 X=df[["Price","Rating","Sales"]]
