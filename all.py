@@ -19,7 +19,7 @@ B_scaled_3 = np.dot(scaling_matrix_3, B_scaled_2)
 shearing_matrix_4 = np.array([[1, 0], [0, 1]])
 shearing_matrix_4[0, 1] = 5 
 A_sheared_4 = np.dot(shearing_matrix_4, A_scaled_3) 
-B_sheared_4 = np.dot(shearing_matrix_4, B_scaled_3) 
+B_sheared_4 = np.dot(shearing_matrix_4, B_scaled_3)  
 # Print the input and output points for each transformation
 print("Input Point A:", A)
 print("Input Point B:", B)
