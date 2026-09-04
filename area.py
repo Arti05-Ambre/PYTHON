@@ -6,7 +6,7 @@ B = np.array([5, 0])
 C = np.array([3, 3])
 
 # Calculate the side lengths of the triangle
-AB = np.linalg.norm(B - A)
+AB = np.linalg.norm(B - A) 
 BC = np.linalg.norm(C - B)
 CA = np.linalg.norm(A - C) 
 
