@@ -14,4 +14,4 @@ Cx, Cy = 3, 3
 area = calculate_area(Ax, Ay, Bx, By, Cx, Cy)
 
 # Print the result
-print("Area of triangle ABC is:", area)
+print("Area of triangle ABC is:", area) 
