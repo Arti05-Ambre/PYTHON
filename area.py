@@ -8,7 +8,7 @@ C = np.array([3, 3])
 # Calculate the side lengths of the triangle
 AB = np.linalg.norm(B - A)
 BC = np.linalg.norm(C - B)
-CA = np.linalg.norm(A - C)
+CA = np.linalg.norm(A - C) 
 
 # Calculate the semiperimeter
 s = (AB + BC + CA) / 2
