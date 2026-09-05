@@ -4,7 +4,7 @@ from scipy.cluster.hierarchy import dendrogram,linkage
 data={
     "Product":["laptop","Mobile","Tablet","Headphones",  
               "Smartwatch","Camera","keyboard","Monitor"],
-    "Price":[60000,25000,30000,3000,8000,45000,2000,15000],  
+    "Price":[60000,25000,30000,3000,8000,45000,2000,15000],   
     "Rating":[4.5,4.3,4.2,4.1,4.0,4.4,4.2,4.3],
     "Sales":[120,300,200,500,350,100,450,250] 
 }  
