@@ -10,7 +10,7 @@ data={
 } 
 df=pd.DataFrame(data) 
 print("Product Dataset:")
-print(df)
+print(df) 
 X=df[["Price","Rating","Sales"]]
 linked=linkage(X, method="ward")
 plt.figure(figsize=(10,6))
